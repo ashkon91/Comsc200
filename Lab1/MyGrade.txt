@@ -1,0 +1,22 @@
+//Lab 1A, My Grade Program Pseudo Code
+//Programmer: Ashkon Honardoost 
+// Class: Comsc200
+//Editor used: Sublime Text 2
+//Compiler used: G++
+	Impliment the iostream
+	Put using std cout/endl
+	Impliment string
+	Put using std getline/string.
+
+	Set the total grade to zero
+	Set the grade counter to one
+
+	While the grade counter is less than or equal to ten
+		Prompt user to enter next grade
+		Input the next grade
+		Add the grade into the total
+		Add one to grade counter
+
+	Set the class average to the total divided by 10
+	Print the total of the grades for all studnets in the class
+	Print the class average.

@@ -1,0 +1,4 @@
+COURSE    DESCRIPTION: 
+This course provides detailed coverage of the concepts and syntax of the C++ Language.
+Coverage includes inheritance, overloaded operators, overloaded default operators,
+virtual functions, memory management, files, streams, templates, and exceptions.

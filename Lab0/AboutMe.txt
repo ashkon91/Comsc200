@@ -1,0 +1,5 @@
+About Me - Comsc 200
+1. Ashkon Honardoost
+2. I took COMSC 165 during the Fall of 2013. I had Pentcheva for my class. I have also taken COMSC 255 with Khaja over the Summer of 2013.
+3.  I am expecting that I will use a g++ compiler.
+4. I will use either Notepad++(windows) or Textwrangler(mac) depending on the OS I am working on. 
