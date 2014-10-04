@@ -45,7 +45,7 @@ void SalesPerson::getSalesFromUser()
 //sets the values for sales info
 void SalesPerson::setSales(int month, double amount)
 {
-        if(month >= 1 && month <= monthsPerYear && amount > 0)
+        if(month >= 1 && month <= monthsPerYear  && amount > 0)
                 sales[month - 1] = amount;
         else
                 cout << "Invalid month or sales figure" << endl;

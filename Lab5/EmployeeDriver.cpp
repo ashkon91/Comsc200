@@ -1,0 +1,41 @@
+//Assignment 5A: EMployeeDriver.cpp File
+//Ashkon Honardoost
+//Comsc 200
+//Editor:Sublime Text
+//Compiler: G++
+
+#include <iostream>
+using std::cout;
+using std::endl;
+
+#include "Date.h"
+#include "Employee.h"
+#include "Employee.h"
+
+int main()
+{
+	//prints my info
+	cout<<"Assignment 5A: EmployeeDriver.cpp" <<endl;
+	cout<<"Ashkon Honardoost"<<endl;
+	cout<<"Comsc 200"<<endl;
+	cout<<"Editor:Sublime Text"<<endl;
+	cout<<"Compiler: G++"<<endl;
+	
+	//creates employe object with birthdate and name
+	Date birth(12,11,1994);
+	Date hire(10, 25, 2012);
+	Employee a("Ashkon","Honardoost",birth,hire);
+
+	//test the obecjt
+	cout << "Testing the print Function. It should printout the info of the canidate and his hire date"<<endl;
+	a.print();
+	cout << endl<<endl;
+	{
+	//copying the employee object
+	const Employee copy = a;
+
+	cout<<"Testing the copy of object A that was just printed. Results should be the same"<<endl;
+	copy.print();
+	cout << endl;
+	}
+}
